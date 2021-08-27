@@ -616,9 +616,11 @@ top: 0px;
 
 /* product list */
 .product-thumb {
-	border: 1px solid #ddd;
+	border: 1px solid;
+	border-radius:7px;
 	margin-bottom: 20px;
 	overflow: auto;
+	padding: 10px;
 	background-color: #ebebeb
 }
 .product-thumb .image {
@@ -646,11 +648,12 @@ top: 0px;
 .product-thumb h4 {
 	font-weight: bold;
 	text-align:center;
-	min-height: 42px;
+	min-height: 52px;
+	overflow:hidden;
 }
 .product-thumb .caption {
 	padding: 0 20px;
-	min-height: 120px;
+	min-height: 132px;
 }
 .product-thumb .caption > h4 + p {
 	height: 30px;
@@ -677,6 +680,8 @@ top: 0px;
 }
 .product-thumb .rating {
 	padding-bottom: 10px;
+	margin: 0 auto;
+    text-align: center;
 }
 .rating .fa-stack {
 	font-size: 8px;
@@ -1047,12 +1052,13 @@ footer {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
+/* правка шапки сатйа*/
 @media screen and (max-width: 768px) {
 .padding{
 		padding:0 15px 0 0;
 	}
 }
+/* правки  категории фото и названия*/
 .cat-img img{max-width:100%;}
 
 .cat-all{margin-bottom:35px;}
@@ -1063,7 +1069,7 @@ footer {
 	
 	.cat-title a{color: #323232;font-weight: 600;
     margin-bottom: 0;}
-/* Стили к уроку 10 */
+
 .text-right{text-align: right;}
 
 .clear{clear:both} 
