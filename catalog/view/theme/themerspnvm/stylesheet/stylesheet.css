@@ -657,6 +657,7 @@ top: 0px;
 }
 .product-thumb .caption > h4 + p {
 	height: 30px;
+	font-weight: bold;/* цена жирнее */
 	overflow: hidden;
 }
 .product-list .product-thumb .caption {
@@ -1088,6 +1089,13 @@ footer {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;}
+
+/* выравнивание названия*/
+
+.title-product{
+	margin-top:0;
+}
+
 
 .fa-youtube:before, .fa-instagram:before, .fa-facebook:before, .fa-user:before, .fa-cart-arrow-down:before, .fa-heart:before, .fa-rss:before {
     margin-right: 5px;
