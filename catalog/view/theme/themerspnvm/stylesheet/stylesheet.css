@@ -1094,6 +1094,31 @@ footer {
 
 .title-product{
 	margin-top:0;
+	color: #323232;
+   font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+/* выравнивание кнопок в карточке товара*/
+.oneline{
+	display: flex;
+    justify-content: space-between;
+align-items: center;}
+
+
+#input-quantity {
+    width: 35px;
+    margin: 0 25px;
+    height: 42px;
+}
+	
+#button-cart {
+    margin-right: 25px;
+}
+
+.btn-cart-compare {
+    height: 39px;
 }
 
 
