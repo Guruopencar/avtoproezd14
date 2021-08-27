@@ -1065,5 +1065,23 @@ footer {
     margin-bottom: 0;}
 /* Стили к уроку 10 */
 .text-right{text-align: right;}
+
+.clear{clear:both} 
+
+/*Карточка товара новые стили*/
+	.pr-title{padding: 13px 20px;
+    line-height: 15px;
+    color: #fff;
+	margin:25px 0 15px 0;
+    font-weight: 700;
+    text-transform: none;
+    border: 1px solid #e6e6e6;
+    border-bottom: 4px solid #e6e6e6;
+    background-color: #A9A9A9;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;}
+
 .fa-youtube:before, .fa-instagram:before, .fa-facebook:before, .fa-user:before, .fa-cart-arrow-down:before, .fa-heart:before, .fa-rss:before {
     margin-right: 5px;
